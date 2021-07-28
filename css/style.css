@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sony bar */
+
+.my_sonybar {
+    height: 35px;
+    padding-right: 18px;
+    text-align: right;
+    line-height: 35px;
+    background-color: black;
+}
+
+.my_sonybar img {
+    width: 4%;
+    vertical-align: initial;
+}
+
