@@ -19,3 +19,12 @@
     vertical-align: initial;
 }
 
+/* Navbar */
+
+.my_list1 ul {
+    justify-content: flex-end;
+}
+
+/* ------- Main ------- */
+
+/* Carousel */
