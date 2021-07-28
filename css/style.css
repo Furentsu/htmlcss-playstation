@@ -27,15 +27,18 @@
 /* Jumbotron */
 
 .my_jumbotron-background {
-    height: 500px;
-    background-image: url("img/returnal-thumb.jpg");
+    height: 80vh;
+    background-image: url("../img/jumbo-bg.png");
     background-size: cover;
+    background-position: center;
 }
 
-.my_jumbotron-logo-container {
-    width: 150px;
+.my_jumbo-logo {
+    width: 50%;
 }
 
-.my_jumbotron-logo-container img {
-    width: 100%;
+.my_jumbotron-content {
+    height: 100%;
+    color: white;
+    padding-top: 400px;
 }
