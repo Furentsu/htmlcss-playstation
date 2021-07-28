@@ -62,3 +62,21 @@
 }
 
 /* Playstation 5 section */
+
+.my_ps5-thumbnail-big img {
+    width: 100%;
+}
+
+.my_ps5-thumbnails-container {
+    width: 100%;
+}
+
+.my_ps5-thumbnails-container > img {
+    width: 100%;
+}
+
+.my_ps5-element > .my_ps5-thumbnails-container {
+    border-bottom: 1px solid blue;
+}
+
+/* "It Takes Two" section */
