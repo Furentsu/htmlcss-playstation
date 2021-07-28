@@ -21,9 +21,6 @@
 
 /* Navbar */
 
-.my_list1 ul {
-    justify-content: flex-end;
-}
 
 /* ------- Main ------- */
 
@@ -31,7 +28,7 @@
 
 .my_jumbotron-background {
     height: 500px;
-    background-image: url("img/returnal-listing-thumb-01-ps5.jpg");
+    background-image: url("img/returnal-thumb.jpg");
     background-size: cover;
 }
 
