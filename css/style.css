@@ -24,7 +24,7 @@
 
 /* ------- Main ------- */
 
-/* Jumbotron */
+/* Jumbotron - Section 1 */
 
 .my_jumbotron-background {
     height: 80vh;
@@ -42,3 +42,23 @@
     color: white;
     padding-top: 400px;
 }
+
+/* Jumbotron - Section 2 */
+
+.my_jumbo-thumb-img {
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 3px;
+}
+
+.my_jumbo-thumb-img:hover {
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.my_jumbo-thumb-img > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Playstation 5 section */
