@@ -27,4 +27,18 @@
 
 /* ------- Main ------- */
 
-/* Carousel */
+/* Jumbotron */
+
+.my_jumbotron-background {
+    height: 500px;
+    background-image: url("img/returnal-listing-thumb-01-ps5.jpg");
+    background-size: cover;
+}
+
+.my_jumbotron-logo-container {
+    width: 150px;
+}
+
+.my_jumbotron-logo-container img {
+    width: 100%;
+}
