@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* ------- Header ------- */
+
 /* Sony bar */
 
 .my_sonybar {
@@ -150,3 +152,10 @@
 }
 
 /* Social media section */
+ 
+.my_social-media-section-image-container {
+    width: 80%;
+}
+
+/* ------- Footer ------- */
+
