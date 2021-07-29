@@ -115,4 +115,13 @@
 
 /* PS4 section */
 
+.my_ps4-item-container {
+    width: 100%;
+}
+
+.my_ps4-item-container > img {
+    width: 100%;
+}
+
+/* Playstation Plus section */
 
