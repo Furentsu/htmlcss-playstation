@@ -80,3 +80,22 @@
 }
 
 /* "It Takes Two" section */
+
+.my_takes-two-background {
+    height: 80vh;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.my_takes-two-content {
+    height: 100%;
+    color: white;
+    padding-top: 200px;
+}
+
+.my_takes-two-logo {
+    width: 50%;
+}
+
+/* New arrivals' section */
