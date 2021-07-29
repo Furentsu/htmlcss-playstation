@@ -99,3 +99,20 @@
 }
 
 /* New arrivals' section */
+
+.my_new-arrivals-background {
+    background-color: black;
+}
+
+.my_new-arrivals-item-container {
+    width: 100%;
+}
+
+.my_new-arrivals-item-container > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* PS4 section */
+
+
