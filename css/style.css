@@ -159,3 +159,32 @@
 
 /* ------- Footer ------- */
 
+.my_footer {
+    background-color: blue;
+    
+}
+
+.country-region-display {
+    width: 4%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my_ps-logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.my_footer-lists {
+    list-style-type: none;
+}
+
+.my_footer-lists li a {
+    color: white;
+    text-decoration: none;
+}
+
+.my_sie-logo {
+    width: 20%;
+}
+
