@@ -130,8 +130,23 @@
 }
 
 .my_psplus-image {
-    width: 50%;
+    width: 60%;
 }
 
 /* Discount section */
 
+.my_discount-section .my_discount-item-container img {
+    width: 90%;
+}
+
+/* Playstation Now section */
+
+.my_psnow-section {
+    background-color:darkblue;
+}
+
+.my_psnow-logo {
+    width: 100%;
+}
+
+/* Social media section */
