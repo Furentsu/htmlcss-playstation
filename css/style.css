@@ -29,14 +29,13 @@
 /* Jumbotron - Section 1 */
 
 .my_jumbotron-background {
-    height: 80vh;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
 }
 
 .my_jumbo-logo {
-    width: 50%;
+    width: 200px;
 }
 
 .my_jumbotron-content {
@@ -84,7 +83,6 @@
 /* "It Takes Two" section */
 
 .my_takes-two-background {
-    height: 80vh;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
@@ -97,13 +95,13 @@
 }
 
 .my_takes-two-logo {
-    width: 50%;
+    width: 200px;
 }
 
 /* New arrivals' section */
 
 .my_new-arrivals-background {
-    background-color: black;
+    background-color: #1f1f1f;
 }
 
 .my_new-arrivals-item-container {
@@ -132,7 +130,7 @@
 }
 
 .my_psplus-image {
-    width: 60%;
+    width: 50%;
 }
 
 /* Discount section */
@@ -148,7 +146,7 @@
 }
 
 .my_psnow-logo {
-    width: 100%;
+    width: 50%;
 }
 
 /* Social media section */
@@ -160,23 +158,22 @@
 /* ------- Footer ------- */
 
 .my_footer {
-    background-color: blue;
-    
-}
-
-.country-region-display {
-    width: 4%;
-    display: inline-block;
-    vertical-align: middle;
+    background-color: #00439C;
 }
 
 .my_ps-logo {
-    width: 20%;
-    vertical-align: middle;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.my_country-region-logo {
+    width: 30px;
 }
 
 .my_footer-lists {
     list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .my_footer-lists li a {
@@ -185,6 +182,7 @@
 }
 
 .my_sie-logo {
-    width: 20%;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
