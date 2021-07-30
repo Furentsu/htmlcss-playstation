@@ -10,19 +10,27 @@
 
 .my_sonybar {
     height: 35px;
-    padding-right: 18px;
+    padding-right: 10px;
     text-align: right;
     line-height: 35px;
     background-color: black;
 }
 
 .my_sonybar img {
-    width: 4%;
-    vertical-align: initial;
+    width: 80px;
+    vertical-align: middle;
 }
 
 /* Navbar */
 
+.my_navbar-lens {
+    width: 30px;
+}
+
+.navbar ul li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 /* ------- Main ------- */
 
@@ -32,10 +40,6 @@
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
-}
-
-.my_jumbo-logo {
-    width: 200px;
 }
 
 .my_jumbotron-content {
@@ -49,20 +53,24 @@
 .my_jumbo-thumb-img {
     border-radius: 20px;
     border: 2px solid transparent;
-    padding: 3px;
+    padding: 2px;
 }
 
 .my_jumbo-thumb-img:hover {
-    border: 2px solid blue;
+    border: 2px solid #00439C;
     cursor: pointer;
 }
 
 .my_jumbo-thumb-img > img {
-    width: 100%;
     border-radius: 20px;
 }
 
 /* Playstation 5 section */
+
+.my_ps5 span {
+    font-size: .8em;
+    color: #2D64E6;
+}
 
 .my_ps5-thumbnail-big img {
     width: 100%;
@@ -72,12 +80,8 @@
     width: 100%;
 }
 
-.my_ps5-thumbnails-container > img {
-    width: 100%;
-}
-
 .my_ps5-element > .my_ps5-thumbnails-container {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #2D64E6;
 }
 
 /* "It Takes Two" section */
@@ -91,11 +95,11 @@
 .my_takes-two-content {
     height: 100%;
     color: white;
-    padding-top: 200px;
+    padding-top: 50px;
 }
 
-.my_takes-two-logo {
-    width: 200px;
+.my_takes-two-content p > span {
+    font-style: italic;
 }
 
 /* New arrivals' section */
@@ -115,6 +119,11 @@
 
 /* PS4 section */
 
+.ps4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .my_ps4-item-container {
     width: 100%;
 }
@@ -129,9 +138,6 @@
     background-color: lightgray;
 }
 
-.my_psplus-image {
-    width: 50%;
-}
 
 /* Discount section */
 
@@ -142,18 +148,14 @@
 /* Playstation Now section */
 
 .my_psnow-section {
-    background-color:darkblue;
+    background-color:#051f3d;
 }
 
-.my_psnow-logo {
-    width: 50%;
-}
+
 
 /* Social media section */
  
-.my_social-media-section-image-container {
-    width: 80%;
-}
+
 
 /* ------- Footer ------- */
 
@@ -161,13 +163,12 @@
     background-color: #00439C;
 }
 
-.my_ps-logo {
-    width: 150px;
-    margin-bottom: 30px;
+.my_country-region-logo {
+    width: 25px;
 }
 
-.my_country-region-logo {
-    width: 30px;
+.my_ps-footer-logo {
+    width: 100px;
 }
 
 .my_footer-lists {
