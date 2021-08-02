@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior:smooth;
+}
+
 /* ------- Header ------- */
 
 /* Sony bar */
@@ -76,11 +80,21 @@
     border-radius: 20px;
     border: 2px solid transparent;
     padding: 2px;
+    transition: all ease-in-out 300ms;
 }
 
 .my_jumbo-thumb-img:hover {
-    border: 2px solid #00439C;
     cursor: pointer;
+}
+
+.my_jumbo-thumb-img.my_right-rotation:hover {
+    transform: rotate(1.5deg);
+    border: 2px solid #2D64E6;
+}
+
+.my_jumbo-thumb-img.my_left-rotation:hover {
+    transform: rotate(-1.5deg);
+    border: 2px solid orangered;
 }
 
 .my_jumbo-thumb-img > img {
@@ -100,10 +114,12 @@
 
 .my_ps5-thumbnails-container {
     width: 100%;
+    border: 1.5px solid transparent;
+    transition: all ease-in-out 300ms;
 }
 
-.my_ps5-element > .my_ps5-thumbnails-container {
-    border-bottom: 1px solid #2D64E6;
+.my_ps5-thumbnails-container:hover {
+    border-bottom: 1.5px solid #2D64E6;
 }
 
 /* "It Takes Two" section */
@@ -141,10 +157,7 @@
 
 /* PS4 section */
 
-.ps4 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 
 .my_ps4-item-container {
     width: 100%;
@@ -205,8 +218,12 @@
 
 .my_footer-lists {
     list-style-type: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my_footer-lists li {
+    padding: 3px 0;
 }
 
 .my_footer-lists li a {
